@@ -1,0 +1,6 @@
+# YAMLファイルはLF改行コードを維持
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# その他のテキストファイルは自動検出
+* text=auto
