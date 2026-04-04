@@ -1,6 +1,7 @@
-# YAMLファイルはLF改行コードを維持
-*.yml text eol=lf
-*.yaml text eol=lf
+# バッチファイルとシェルスクリプトはCRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sh text eol=crlf
 
-# その他のテキストファイルは自動検出
-* text=auto
+# その他のテキストファイルはLF
+* text eol=lf
