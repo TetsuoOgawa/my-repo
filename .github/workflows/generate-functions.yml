@@ -7,4 +7,5 @@ jobs:
       - run: printenv | grep '_FUNC'
         env:
           FORMAT_FUNC: ${{ format('{0}, {1}', 'Hi', 'world') }}
+          # pushイベントのcommitsにはhtml_urlが存在することを確認済み
           JOIN_FUNC: ${{ join(github.event.*.html_url, ', ') }}
