@@ -1,0 +1,27 @@
+# Build output
+bin/
+obj/
+
+# IDE/editor directories
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test and coverage output
+TestResults/
+*.trx
+coverage/
+coverage-*.xml
+
+# NuGet packages (if using packages folder)
+packages/
+
+# OS generated files
+.DS_Store
+Thumbs.db
