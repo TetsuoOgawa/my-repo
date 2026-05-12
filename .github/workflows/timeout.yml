@@ -1,5 +1,8 @@
 name: Timeout
 on: push
+defaults:
+  run:
+    shell: bash
 jobs:
   sleep:
     runs-on: ubuntu-latest
